@@ -20,6 +20,8 @@ import java.io.Serializable;
 @Builder
 public class Payment implements Serializable {
     private Long id ;
+    //修改------
+    private String name;
 
     private String serial;
 }
